@@ -22,21 +22,21 @@ body{
 }
 
 @keyframes animate{
-    0%{
+    /* 0%{
         transform: rotateX(-25deg) rotateX(25deg);
     }
     25%{
         transform: rotateX(-25deg) rotateY(350deg);
-    }
+    } */
     50%{
         transform: rotateX(20deg) rotateY(350deg);
     }
-    75%{
+    /* 75%{
         transform: rotateX(100deg) rotateY(50deg);
     }
     100%{
         transform: rotateX(360deg) rotateY(350deg);
-    } 
+    }  */
 }
 
 .top{
@@ -205,7 +205,7 @@ body{
     position: absolute;
     width: 300px;
     height: 570px;
-    background: url(fond.png) center/cover;
+    background: url(fond2.jpg) center/cover;
     border-radius: 35px;
     transform-style: preserve-3d;
     transform: rotateY(90deg) translateZ(-120px);
