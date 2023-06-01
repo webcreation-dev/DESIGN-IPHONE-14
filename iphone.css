@@ -27,7 +27,7 @@ body{
 
 .big{
     position: relative;
-    animation: animate 20s cubic-bezier(0.1, 0, 0.6, 1)  infinite;
+    animation: animate 26s cubic-bezier(0.1, 0, 0.6, 1)  infinite;
     width: 30px;
     height: 500px;
     transform-style: preserve-3d;
@@ -35,7 +35,7 @@ body{
 
 @keyframes animate {
     0% {
-        transform: rotateY(5deg);
+        transform: rotateY(180deg);
     }
 
     50% {
