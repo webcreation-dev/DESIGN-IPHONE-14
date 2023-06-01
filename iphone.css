@@ -5,6 +5,18 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
 body{
     display: flex; 
     justify-content: center;
@@ -15,29 +27,26 @@ body{
 
 .big{
     position: relative;
-    animation: animate 10s linear infinite;
+    animation: animate 5s ease infinite;
     width: 30px;
     height: 500px;
     transform-style: preserve-3d;
 }
 
 @keyframes animate{
-    0%{
-        transform: rotateX(-25deg) rotateX(25deg);
-    }
-    25%{
-        transform: rotateX(-25deg) rotateY(350deg);
-    }
-    50%{
+    100% {
         transform: rotateX(20deg) rotateY(350deg);
     }
-    75%{
-        transform: rotateX(100deg) rotateY(50deg);
-    }
-    100%{
-        transform: rotateX(360deg) rotateY(350deg);
-    } 
+    
 }
+
+
+  ion-icon{
+    font-size: 5em;
+    color: silver;
+}
+  
+  
 
 .test{
     
@@ -205,6 +214,17 @@ body{
     display: flex;
 }
 
+  video {
+    position: absolute;
+    width: 300px;
+    height: 570px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid black;
+  }
+
 .one{
     position: absolute;
     width: 300px;
@@ -330,7 +350,7 @@ body{
     background-color: #5C5C5C;
     border-radius: 50%;
     top: 20px;
-    right: 20px;
+    left: 20px;
     box-shadow: 0 0 0 2px, #333 0 0 0 5px #B3BECE;
     display: flex;
     justify-content: center;
@@ -453,10 +473,7 @@ body{
     left: 30px;
 }
 
-ion-icon{
-    font-size: 5em;
-    color: silver;
-}
+
 
 .four i:nth-child(6){
     position: absolute;
