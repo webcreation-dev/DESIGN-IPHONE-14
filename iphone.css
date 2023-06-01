@@ -27,18 +27,32 @@ body{
 
 .big{
     position: relative;
-    animation: animate 5s ease infinite;
+    animation: animate 20s cubic-bezier(0.1, 0, 0.6, 1)  infinite;
     width: 30px;
     height: 500px;
     transform-style: preserve-3d;
 }
 
-@keyframes animate{
-    100% {
-        transform: rotateX(20deg) rotateY(350deg);
+@keyframes animate {
+    0% {
+        transform: rotateY(5deg);
+    }
+
+    50% {
+        transform: rotateY(-90deg);
+    }
+    52% {
+        transform: rotateY(-90deg);
+    }
+    53% {
+        transform: rotateY(-90deg);
     }
     
+    100% {
+        transform: rotateY(-180deg);
+    }
 }
+
 
 
   ion-icon{
